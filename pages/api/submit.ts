@@ -1,7 +1,7 @@
 // pages/api/submit.ts
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-let submissions: Array<{ name: string; email: string; message: string; submittedAt: Date }> = [];
+const submissions: Array<{ name: string; email: string; message: string; submittedAt: Date }> = [];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method === 'POST') {

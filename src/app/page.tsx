@@ -1,5 +1,3 @@
-// app/page.tsx (or wherever your Home component is located)
-import Image from "next/image";
 import ContactForm from "./Components/from";
 import BackgroundImageComponent from "./Components/image";
 
